@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SignalRClient-ObjC_Example' do
+  pod 'SignalRClient-ObjC', :path => '../'
+
+  target 'SignalRClient-ObjC_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
