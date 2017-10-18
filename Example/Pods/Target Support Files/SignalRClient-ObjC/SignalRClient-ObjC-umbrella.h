@@ -12,6 +12,10 @@
 
 #import "HttpClient.h"
 #import "HttpResponse.h"
+#import "HubConnection.h"
+#import "HubProtocol.h"
+#import "InvocationDescriptor.h"
+#import "JSONHubProtocol.h"
 #import "SocketConnection.h"
 #import "WebsocketsTransport.h"
 

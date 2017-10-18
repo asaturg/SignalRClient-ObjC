@@ -9,44 +9,41 @@
 /* Begin PBXBuildFile section */
 		0445F5B108C61D9A4F903CE789BF6B2D /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 08647B415BC1EF24774894C749213531 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0B0ADE06BDEF16140129FC067A2E8D /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		05272CF49EB77FEEB4A1F73741095DE3 /* HttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B18FBE280DA3488968B211D8F4E4418 /* HttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A471FBED0A6E0AF3D7D721F446264EB /* UIApplication+StrictKeyWindow.m */; };
 		142FE46AF9D0458F88E02EAB93EAD5A7 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D414530905BB3F16A90AFD9BD8305F9E /* SocketRocket-dummy.m */; };
+		15D274F70F69C4E918CD64CFAB389CDF /* InvocationDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B7C00FBCA3B552BF63FDC2933714B5 /* InvocationDescriptor.m */; };
+		18CB915EB6C20F5210A8D5FE3CDE9760 /* JSONHubProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16045CC07467C5249D8825F85BC26355 /* JSONHubProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F321BB228AC5D502C4FC0D483A2270 /* SwiftSupport.swift */; };
-		1CCD243F842605BEBC7DB4C5A87DB128 /* SocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98527B1752B60D6F50D7747546A351 /* SocketConnection.m */; };
+		1E1426BA654F21586188E7511F15C89E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F819E1C6609486A52B6E8C5D9C694BA /* HttpClient.m */; };
 		2CDB097FED05C1916DEBF058DB71C837 /* Pods-SignalRClient-ObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B52B3E3BAC161869285EAD8FA36AE00B /* Pods-SignalRClient-ObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CEE13D1274F9353D5F168281DCA9F3E /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE490AB83E4F4A502532165A0DBBD74 /* SRWebSocket.m */; };
-		2D8410637BCB9F2EED690B17799582FD /* WebsocketsTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3F2D664485654C2229666915B4B0F /* WebsocketsTransport.m */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E06893634BEEED3B2B624456859BEB3 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DC8A567080C5100ED7CDEF4522F0D6 /* HubProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC037D3C72C29DA8F3B394104ADB4B3 /* HubProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33054240D3CB25B4A15A9727855466D9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE11593433ACDDF96661CEE973C8542 /* Security.framework */; };
+		342439709B1F48E032F721C1109860FB /* HubConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 85454E66CA662F8ED67CC2ED134790A9 /* HubConnection.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9F4B39162985FF3780ACAF19ED988 /* UIImage+Diff.m */; };
-		3AA8484A1F969FEC0009EF1D /* HubConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA848481F969FEC0009EF1D /* HubConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AA8484B1F969FEC0009EF1D /* HubConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA848491F969FEC0009EF1D /* HubConnection.m */; };
-		3AA8484E1F96A41B0009EF1D /* HubProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA8484C1F96A41B0009EF1D /* HubProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AA8484F1F96A41B0009EF1D /* HubProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8484D1F96A41B0009EF1D /* HubProtocol.m */; };
-		3AA848531F96AB5B0009EF1D /* JSONHubProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA848511F96AB5B0009EF1D /* JSONHubProtocol.h */; };
-		3AA848541F96AB5B0009EF1D /* JSONHubProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA848521F96AB5B0009EF1D /* JSONHubProtocol.m */; };
-		3AA848761F97BCF70009EF1D /* InvocationDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA848741F97BCF70009EF1D /* InvocationDescriptor.h */; };
-		3AA848771F97BCF70009EF1D /* InvocationDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA848751F97BCF70009EF1D /* InvocationDescriptor.m */; };
 		3FD7970DD95B14978306FD6E24985412 /* Pods-SignalRClient-ObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EB1F5C450B6692CF857F96DE1E293 /* Pods-SignalRClient-ObjC_Example-dummy.m */; };
+		3FEA40E4640BB8C94FB6927589ABD006 /* SocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0889F94D472EE2EF754693385C9E7B /* SocketConnection.m */; };
 		41C19A2858CB9CD6A1700E668BF1CED0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5F4A097C1C32401122CC6D4F1A4B19 /* CFNetwork.framework */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEB33E2AE6C750006E690D476E3B4A2 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7764A21C5D0CE544E05DF556E62A25E /* FBSnapshotTestCase-dummy.m */; };
 		56CA8E905D231AAC3E884A76E92E6598 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7561621B8056044F7CC03983078F62 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64F5EFF499361FA9B1680B4F1273A2D8 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D83709CF9BE3A85C52E9275934DB45 /* HttpResponse.m */; };
+		632CE9D1CFDCD87391781B851099AD81 /* SocketConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDCA01F10E84CC093D62E8CD4F7ACEE /* SocketConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = D5265679894719088833F71F8BF13AA1 /* UIImage+Compare.m */; };
 		6CED6BB37B1DDE3A0E7147DCCEBAE0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7604F5EAC61267C198DD15B7A95AFF2B /* Foundation.framework */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 463CB55DC5EC852AEC48C283B4826C52 /* UIImage+Snapshot.m */; };
-		7DD7F9BF4D33F86C2C56CE156A47BCE2 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CAEE9C7190B6797F6199AE300E0D0 /* HttpClient.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30FAF908E8F8515B90E020DD0CB8C61 /* XCTest.framework */; };
+		7F836EA4D24211BFCA036BFD18B6D29C /* WebsocketsTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 36583B62CDF14E73755D76C13E922E5E /* WebsocketsTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDC4538E8FD98688CE641E9639DEB7D /* UIKit.framework */; };
+		861D2C3A89F3B8B08094BE31DF512AA1 /* JSONHubProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A08043997ADB2BACB0909E0CC0E1B /* JSONHubProtocol.m */; };
 		8D9EBA71AA9E19D0CBEA1CD76F0CB57C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7604F5EAC61267C198DD15B7A95AFF2B /* Foundation.framework */; };
 		904B9A380FFC901BFEE7D3E65FC18DD9 /* Pods-SignalRClient-ObjC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB97DCDFC63FD629DC790102984425AC /* Pods-SignalRClient-ObjC_Tests-dummy.m */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7604F5EAC61267C198DD15B7A95AFF2B /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4101A9A433F41F7489EB2766D8C939C4 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DC3C88957912D053E83A09ED0D0B1F8 /* SignalRClient-ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C6814C17CD94BFD7132BFC945CE9D7 /* SignalRClient-ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A395A3CD605D9C392E3C6282328391C5 /* SignalRClient-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A4D3C9C4C3F62CBCB5412CA674C20 /* SignalRClient-ObjC-dummy.m */; };
+		9BA51D6CB8F889EC2ADB3D83F191FA3A /* HubConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E029FB023FF0A386C2F44A7FCD42A3 /* HubConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A699E0BD394F4F8982CB77D84C9CC9B /* FBSnapshotTestController.m */; };
+		AA2CA6871AABF8818F1943441EB0DFD1 /* WebsocketsTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F251B68741768B2FC39190945B5B5 /* WebsocketsTransport.m */; };
+		ACF86DC3F7DABB65729C46EE015A6054 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B8040EAFB0C7656B3EB9B7E4BF2CDBA4 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD95F252923F67AF3BE4708062FB091A /* QuartzCore.framework */; };
 		B53B1E984E1883227B44F6D312BF0E53 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE2372198B29CF0BABE405BFFA735B8 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 777EB55B85C5A977DB2F425212738950 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,14 +51,17 @@
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D6055F7AD3FEA4E78FAB7DB4EDA44E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 469254BCDC398AF7D6C44D06A6DD74ED /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD031A9B5C775D517AB8AF7F031162F /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0B13D28D0C47FD1D8BC4C00A5221E10 /* SignalRClient-ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E89C07CF1DB09DDA0392E96E2A450B87 /* SignalRClient-ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF74D965D44EBD155414C85C1418C91 /* HubProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E6127A1C7073B24BD268E9A193413EA3 /* HubProtocol.m */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 4187F9D70B0F1AB27A78E1649494542E /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D2E2FEDF0FA9F70940162667D7268B25 /* SignalRClient-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB65DB53E56B7FBA4CA1758DE21CF8A1 /* SignalRClient-ObjC-dummy.m */; };
 		D309F7E48A5F81CAE6AD7288275A3480 /* Pods-SignalRClient-ObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB67B9CD8108829D9EC74BC674836D0 /* Pods-SignalRClient-ObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33CADA55790401940C0FBA736966F5C /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F102D0788FC2530D36A28A205E120B98 /* HttpResponse.m */; };
+		DA1F367062953ECC742FE8A795F2025A /* HttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC31BEC1DA52317540858ECBC55272F /* HttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DABF85E9001C733F86C13CF8D8E3F25C /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6E8CFA0830F360B559F3AC1CB53D78 /* SocketRocket.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A6677FEB8327181810A83E3DC0DB /* FBSnapshotTestCasePlatform.m */; };
-		E486304F40B3ACC592CFDA2496D9853C /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F85F2211EAE89906826812F6C4C39A /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4DB2FCC359204B7DCAB3CBC9C106FE1 /* WebsocketsTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = E79E62B79E1F21797A1438B9F343A8D8 /* WebsocketsTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E503E296A4F56BDC5EDE81AAC59ECC3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7604F5EAC61267C198DD15B7A95AFF2B /* Foundation.framework */; };
-		E8C9EB334002DD9772D6481E8BB04911 /* SocketConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE79207841113F2276A28136C6E594A /* SocketConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB6EFAD55FC854C6411AE87C3B91D7B /* InvocationDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B33CEF4B11B17866EB59466C1FCB5E0 /* InvocationDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,85 +101,85 @@
 		08647B415BC1EF24774894C749213531 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 		0A14351164E05FF2C552C99D39B129DD /* Pods-SignalRClient-ObjC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignalRClient-ObjC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0AE2372198B29CF0BABE405BFFA735B8 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		0B18FBE280DA3488968B211D8F4E4418 /* HttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HttpClient.h; path = "SignalRClient-ObjC/Classes/HttpClient.h"; sourceTree = "<group>"; };
+		16045CC07467C5249D8825F85BC26355 /* JSONHubProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHubProtocol.h; path = "SignalRClient-ObjC/Classes/JSONHubProtocol.h"; sourceTree = "<group>"; };
 		1641A8A233A98ECF9EDEC96CD66FC337 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6A08043997ADB2BACB0909E0CC0E1B /* JSONHubProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHubProtocol.m; path = "SignalRClient-ObjC/Classes/JSONHubProtocol.m"; sourceTree = "<group>"; };
 		24983183B7156C633A9A26241BE69306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26DE8C62E765B0DF102278ADA01B908B /* Pods_SignalRClient_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalRClient_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25067BDACBAD52B1CA8559344ED942C4 /* SignalRClient-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalRClient-ObjC-prefix.pch"; sourceTree = "<group>"; };
+		26DE8C62E765B0DF102278ADA01B908B /* Pods_SignalRClient_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignalRClient_ObjC_Example.framework; path = "Pods-SignalRClient-ObjC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E029FB023FF0A386C2F44A7FCD42A3 /* HubConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HubConnection.h; path = "SignalRClient-ObjC/Classes/HubConnection.h"; sourceTree = "<group>"; };
 		2A471FBED0A6E0AF3D7D721F446264EB /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		2BEB33E2AE6C750006E690D476E3B4A2 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2BF61472E77B47FB02D15066B4AF7377 /* Pods-SignalRClient-ObjC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRClient-ObjC_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		33F85F2211EAE89906826812F6C4C39A /* HttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = "SignalRClient-ObjC/Classes/HttpResponse.h"; sourceTree = "<group>"; };
-		3AA848481F969FEC0009EF1D /* HubConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HubConnection.h; path = "SignalRClient-ObjC/Classes/HubConnection.h"; sourceTree = "<group>"; };
-		3AA848491F969FEC0009EF1D /* HubConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HubConnection.m; path = "SignalRClient-ObjC/Classes/HubConnection.m"; sourceTree = "<group>"; };
-		3AA8484C1F96A41B0009EF1D /* HubProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HubProtocol.h; path = "SignalRClient-ObjC/Classes/HubProtocol.h"; sourceTree = "<group>"; };
-		3AA8484D1F96A41B0009EF1D /* HubProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HubProtocol.m; path = "SignalRClient-ObjC/Classes/HubProtocol.m"; sourceTree = "<group>"; };
-		3AA848511F96AB5B0009EF1D /* JSONHubProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONHubProtocol.h; path = "SignalRClient-ObjC/Classes/JSONHubProtocol.h"; sourceTree = "<group>"; };
-		3AA848521F96AB5B0009EF1D /* JSONHubProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JSONHubProtocol.m; path = "SignalRClient-ObjC/Classes/JSONHubProtocol.m"; sourceTree = "<group>"; };
-		3AA848741F97BCF70009EF1D /* InvocationDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InvocationDescriptor.h; path = "SignalRClient-ObjC/Classes/InvocationDescriptor.h"; sourceTree = "<group>"; };
-		3AA848751F97BCF70009EF1D /* InvocationDescriptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InvocationDescriptor.m; path = "SignalRClient-ObjC/Classes/InvocationDescriptor.m"; sourceTree = "<group>"; };
+		2F819E1C6609486A52B6E8C5D9C694BA /* HttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HttpClient.m; path = "SignalRClient-ObjC/Classes/HttpClient.m"; sourceTree = "<group>"; };
+		31E76DB1D15F609D232BD4A97A6556EF /* SignalRClient-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SignalRClient-ObjC.modulemap"; sourceTree = "<group>"; };
+		36583B62CDF14E73755D76C13E922E5E /* WebsocketsTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebsocketsTransport.h; path = "SignalRClient-ObjC/Classes/WebsocketsTransport.h"; sourceTree = "<group>"; };
 		3BDC4538E8FD98688CE641E9639DEB7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3F6E8CFA0830F360B559F3AC1CB53D78 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F98527B1752B60D6F50D7747546A351 /* SocketConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SocketConnection.m; path = "SignalRClient-ObjC/Classes/SocketConnection.m"; sourceTree = "<group>"; };
 		4101A9A433F41F7489EB2766D8C939C4 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		4187F9D70B0F1AB27A78E1649494542E /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4563531C8F29D3741CD084D37F1AE87A /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
 		463CB55DC5EC852AEC48C283B4826C52 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		469254BCDC398AF7D6C44D06A6DD74ED /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		4A699E0BD394F4F8982CB77D84C9CC9B /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		4CA92611BCAA8074FFD2F17035AEF074 /* SignalRClient-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "SignalRClient-ObjC.modulemap"; sourceTree = "<group>"; };
+		4B33CEF4B11B17866EB59466C1FCB5E0 /* InvocationDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InvocationDescriptor.h; path = "SignalRClient-ObjC/Classes/InvocationDescriptor.h"; sourceTree = "<group>"; };
 		4E06893634BEEED3B2B624456859BEB3 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		576C07188B51E4C224D002C65E623FBE /* SignalRClient-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalRClient-ObjC-prefix.pch"; sourceTree = "<group>"; };
-		5A4CAEE9C7190B6797F6199AE300E0D0 /* HttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HttpClient.m; path = "SignalRClient-ObjC/Classes/HttpClient.m"; sourceTree = "<group>"; };
-		5D29D1E66A6D8412DFF2EDCBFE5DE7CB /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		4F0889F94D472EE2EF754693385C9E7B /* SocketConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SocketConnection.m; path = "SignalRClient-ObjC/Classes/SocketConnection.m"; sourceTree = "<group>"; };
+		5D29D1E66A6D8412DFF2EDCBFE5DE7CB /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SocketRocket.modulemap; sourceTree = "<group>"; };
 		5D9A84B9FF327EB5AFAD83063571F902 /* Pods-SignalRClient-ObjC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRClient-ObjC_Example-resources.sh"; sourceTree = "<group>"; };
 		5E0B0ADE06BDEF16140129FC067A2E8D /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		5F5A4D3C9C4C3F62CBCB5412CA674C20 /* SignalRClient-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SignalRClient-ObjC-dummy.m"; sourceTree = "<group>"; };
+		5F0F251B68741768B2FC39190945B5B5 /* WebsocketsTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebsocketsTransport.m; path = "SignalRClient-ObjC/Classes/WebsocketsTransport.m"; sourceTree = "<group>"; };
 		6CD27C55140454B2D2266A133C63FCA9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		6D7561621B8056044F7CC03983078F62 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
 		6DE490AB83E4F4A502532165A0DBBD74 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
 		6EB9F4B39162985FF3780ACAF19ED988 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		6FE11593433ACDDF96661CEE973C8542 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		6FE79207841113F2276A28136C6E594A /* SocketConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketConnection.h; path = "SignalRClient-ObjC/Classes/SocketConnection.h"; sourceTree = "<group>"; };
-		707719E081A405399B3406AE5EA75947 /* Pods-SignalRClient-ObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SignalRClient-ObjC_Tests.modulemap"; sourceTree = "<group>"; };
+		707719E081A405399B3406AE5EA75947 /* Pods-SignalRClient-ObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SignalRClient-ObjC_Tests.modulemap"; sourceTree = "<group>"; };
 		7604F5EAC61267C198DD15B7A95AFF2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		777EB55B85C5A977DB2F425212738950 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7AB67B9CD8108829D9EC74BC674836D0 /* Pods-SignalRClient-ObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignalRClient-ObjC_Example-umbrella.h"; sourceTree = "<group>"; };
 		7AC76BF12A07656DBFC93F7FE6A19273 /* Pods-SignalRClient-ObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRClient-ObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		821AF363EB3B207F66485E59050E1447 /* Pods-SignalRClient-ObjC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignalRClient-ObjC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D75548595F580F72E29BF4884D492B5 /* SignalRClient-ObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SignalRClient-ObjC.xcconfig"; sourceTree = "<group>"; };
+		85454E66CA662F8ED67CC2ED134790A9 /* HubConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HubConnection.m; path = "SignalRClient-ObjC/Classes/HubConnection.m"; sourceTree = "<group>"; };
 		8FD5E01C9B4A0072686873A4F41C2C4F /* Pods-SignalRClient-ObjC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignalRClient-ObjC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90F321BB228AC5D502C4FC0D483A2270 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99D83709CF9BE3A85C52E9275934DB45 /* HttpResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = "SignalRClient-ObjC/Classes/HttpResponse.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAA9D4F103C9836312B3D193370F006 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		A0013221EA9478E19F99EEC02FFBC7C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47C732B4007408D1A848A871B24C5F6 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA50E5C7F492D2972C1933E4B50170CB /* Pods_SignalRClient_ObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalRClient_ObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABE3F2D664485654C2229666915B4B0F /* WebsocketsTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebsocketsTransport.m; path = "SignalRClient-ObjC/Classes/WebsocketsTransport.m"; sourceTree = "<group>"; };
+		A47C732B4007408D1A848A871B24C5F6 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA50E5C7F492D2972C1933E4B50170CB /* Pods_SignalRClient_ObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignalRClient_ObjC_Tests.framework; path = "Pods-SignalRClient-ObjC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD031A9B5C775D517AB8AF7F031162F /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		ADC362F0918B21658D151C1A3D520C21 /* SignalRClient-ObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SignalRClient-ObjC.xcconfig"; sourceTree = "<group>"; };
 		ADC8E761CA4AE9DC2C03E9FB32FAD3B3 /* Pods-SignalRClient-ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRClient-ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B0B7C00FBCA3B552BF63FDC2933714B5 /* InvocationDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InvocationDescriptor.m; path = "SignalRClient-ObjC/Classes/InvocationDescriptor.m"; sourceTree = "<group>"; };
 		B2D6055F7AD3FEA4E78FAB7DB4EDA44E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B52B3E3BAC161869285EAD8FA36AE00B /* Pods-SignalRClient-ObjC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignalRClient-ObjC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B7CB58461FEBB8EF0A45F55CD54D3BC0 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CB58461FEBB8EF0A45F55CD54D3BC0 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8040EAFB0C7656B3EB9B7E4BF2CDBA4 /* HttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = "SignalRClient-ObjC/Classes/HttpResponse.h"; sourceTree = "<group>"; };
 		B84C9AD18E0D82D365CDBB3397D2A4EE /* Pods-SignalRClient-ObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignalRClient-ObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7764A21C5D0CE544E05DF556E62A25E /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		C7DB286D70EBB8F033C1A678F377175C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB97DCDFC63FD629DC790102984425AC /* Pods-SignalRClient-ObjC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SignalRClient-ObjC_Tests-dummy.m"; sourceTree = "<group>"; };
+		CDDCA01F10E84CC093D62E8CD4F7ACEE /* SocketConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketConnection.h; path = "SignalRClient-ObjC/Classes/SocketConnection.h"; sourceTree = "<group>"; };
 		CF5F4A097C1C32401122CC6D4F1A4B19 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		D2F69B3F4F6893AF3F76C720627B0E72 /* Pods-SignalRClient-ObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRClient-ObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D414530905BB3F16A90AFD9BD8305F9E /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
 		D5265679894719088833F71F8BF13AA1 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		D6C6814C17CD94BFD7132BFC945CE9D7 /* SignalRClient-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalRClient-ObjC-umbrella.h"; sourceTree = "<group>"; };
 		DBFDC8A7F152031CC54F19A9B6642F00 /* Pods-SignalRClient-ObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRClient-ObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E30FAF908E8F8515B90E020DD0CB8C61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E79E62B79E1F21797A1438B9F343A8D8 /* WebsocketsTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebsocketsTransport.h; path = "SignalRClient-ObjC/Classes/WebsocketsTransport.h"; sourceTree = "<group>"; };
-		E9AC4031B6A14A47FA0C3649D7B6F915 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		E5D28A14FE5E5E80862A165ACE90F180 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6127A1C7073B24BD268E9A193413EA3 /* HubProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HubProtocol.m; path = "SignalRClient-ObjC/Classes/HubProtocol.m"; sourceTree = "<group>"; };
+		E89C07CF1DB09DDA0392E96E2A450B87 /* SignalRClient-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalRClient-ObjC-umbrella.h"; sourceTree = "<group>"; };
+		E9AC4031B6A14A47FA0C3649D7B6F915 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		EB1F2A601509933C6EF71EA59CD40586 /* Pods-SignalRClient-ObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRClient-ObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EB65DB53E56B7FBA4CA1758DE21CF8A1 /* SignalRClient-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SignalRClient-ObjC-dummy.m"; sourceTree = "<group>"; };
+		ECC037D3C72C29DA8F3B394104ADB4B3 /* HubProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HubProtocol.h; path = "SignalRClient-ObjC/Classes/HubProtocol.h"; sourceTree = "<group>"; };
 		ED8A685D612FF7299523998D3EE64113 /* Pods-SignalRClient-ObjC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRClient-ObjC_Tests-resources.sh"; sourceTree = "<group>"; };
-		EFE127D96CAFBD13698839C23202C3D1 /* Pods-SignalRClient-ObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SignalRClient-ObjC_Example.modulemap"; sourceTree = "<group>"; };
+		EEC31BEC1DA52317540858ECBC55272F /* HttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HttpClient.h; path = "SignalRClient-ObjC/Classes/HttpClient.h"; sourceTree = "<group>"; };
+		EFE127D96CAFBD13698839C23202C3D1 /* Pods-SignalRClient-ObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SignalRClient-ObjC_Example.modulemap"; sourceTree = "<group>"; };
+		F102D0788FC2530D36A28A205E120B98 /* HttpResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = "SignalRClient-ObjC/Classes/HttpResponse.m"; sourceTree = "<group>"; };
 		F48EB1F5C450B6692CF857F96DE1E293 /* Pods-SignalRClient-ObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SignalRClient-ObjC_Example-dummy.m"; sourceTree = "<group>"; };
-		FADD78AAD9A9CD55FD8819D3E7681967 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAE405ECA430286AD6B5A513EF268696 /* SignalRClient_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalRClient_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE405ECA430286AD6B5A513EF268696 /* SignalRClient_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SignalRClient_ObjC.framework; path = "SignalRClient-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD95F252923F67AF3BE4708062FB091A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -264,10 +264,10 @@
 			path = "Target Support Files/Pods-SignalRClient-ObjC_Example";
 			sourceTree = "<group>";
 		};
-		2329DFBCAC249D1EA658EEC5FC0E58FB /* Development Pods */ = {
+		214AE372CDEE17D330DF0784AFDFC189 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35FFB6BF1B33F6ECC6F57B4213D6DCD3 /* SignalRClient-ObjC */,
+				B6A425BE86DCF8C5CBD22BFF6FDC9525 /* SignalRClient-ObjC */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -279,31 +279,6 @@
 				03E95FB360B7D901722203F28C7FC599 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		35FFB6BF1B33F6ECC6F57B4213D6DCD3 /* SignalRClient-ObjC */ = {
-			isa = PBXGroup;
-			children = (
-				0B18FBE280DA3488968B211D8F4E4418 /* HttpClient.h */,
-				5A4CAEE9C7190B6797F6199AE300E0D0 /* HttpClient.m */,
-				33F85F2211EAE89906826812F6C4C39A /* HttpResponse.h */,
-				99D83709CF9BE3A85C52E9275934DB45 /* HttpResponse.m */,
-				6FE79207841113F2276A28136C6E594A /* SocketConnection.h */,
-				3F98527B1752B60D6F50D7747546A351 /* SocketConnection.m */,
-				E79E62B79E1F21797A1438B9F343A8D8 /* WebsocketsTransport.h */,
-				ABE3F2D664485654C2229666915B4B0F /* WebsocketsTransport.m */,
-				3AA848481F969FEC0009EF1D /* HubConnection.h */,
-				3AA848491F969FEC0009EF1D /* HubConnection.m */,
-				3AA8484C1F96A41B0009EF1D /* HubProtocol.h */,
-				3AA8484D1F96A41B0009EF1D /* HubProtocol.m */,
-				3AA848511F96AB5B0009EF1D /* JSONHubProtocol.h */,
-				3AA848521F96AB5B0009EF1D /* JSONHubProtocol.m */,
-				3AA848741F97BCF70009EF1D /* InvocationDescriptor.h */,
-				3AA848751F97BCF70009EF1D /* InvocationDescriptor.m */,
-				D66ADEA87ABE2D4B21E341D396992ED5 /* Support Files */,
-			);
-			name = "SignalRClient-ObjC";
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		3E4E4A26BB4CC45E50C40F4C9AC4CAF4 /* Support Files */ = {
@@ -350,11 +325,25 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		78E5753F17763714658D8AADD033150E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5D28A14FE5E5E80862A165ACE90F180 /* Info.plist */,
+				31E76DB1D15F609D232BD4A97A6556EF /* SignalRClient-ObjC.modulemap */,
+				ADC362F0918B21658D151C1A3D520C21 /* SignalRClient-ObjC.xcconfig */,
+				EB65DB53E56B7FBA4CA1758DE21CF8A1 /* SignalRClient-ObjC-dummy.m */,
+				25067BDACBAD52B1CA8559344ED942C4 /* SignalRClient-ObjC-prefix.pch */,
+				E89C07CF1DB09DDA0392E96E2A450B87 /* SignalRClient-ObjC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SignalRClient-ObjC";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2329DFBCAC249D1EA658EEC5FC0E58FB /* Development Pods */,
+				214AE372CDEE17D330DF0784AFDFC189 /* Development Pods */,
 				2846961E5166156FE77E5EEF03BB2B98 /* Frameworks */,
 				441D9F1C5D473BFBDC1F16282E1E5265 /* Pods */,
 				8CDCDA80669C15198C563EB760611CF9 /* Products */,
@@ -369,6 +358,7 @@
 				3E4E4A26BB4CC45E50C40F4C9AC4CAF4 /* Support Files */,
 				A48C92099C55E6C41163390D3F784F71 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -415,6 +405,31 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		B6A425BE86DCF8C5CBD22BFF6FDC9525 /* SignalRClient-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				EEC31BEC1DA52317540858ECBC55272F /* HttpClient.h */,
+				2F819E1C6609486A52B6E8C5D9C694BA /* HttpClient.m */,
+				B8040EAFB0C7656B3EB9B7E4BF2CDBA4 /* HttpResponse.h */,
+				F102D0788FC2530D36A28A205E120B98 /* HttpResponse.m */,
+				26E029FB023FF0A386C2F44A7FCD42A3 /* HubConnection.h */,
+				85454E66CA662F8ED67CC2ED134790A9 /* HubConnection.m */,
+				ECC037D3C72C29DA8F3B394104ADB4B3 /* HubProtocol.h */,
+				E6127A1C7073B24BD268E9A193413EA3 /* HubProtocol.m */,
+				4B33CEF4B11B17866EB59466C1FCB5E0 /* InvocationDescriptor.h */,
+				B0B7C00FBCA3B552BF63FDC2933714B5 /* InvocationDescriptor.m */,
+				16045CC07467C5249D8825F85BC26355 /* JSONHubProtocol.h */,
+				1E6A08043997ADB2BACB0909E0CC0E1B /* JSONHubProtocol.m */,
+				CDDCA01F10E84CC093D62E8CD4F7ACEE /* SocketConnection.h */,
+				4F0889F94D472EE2EF754693385C9E7B /* SocketConnection.m */,
+				36583B62CDF14E73755D76C13E922E5E /* WebsocketsTransport.h */,
+				5F0F251B68741768B2FC39190945B5B5 /* WebsocketsTransport.m */,
+				78E5753F17763714658D8AADD033150E /* Support Files */,
+			);
+			name = "SignalRClient-ObjC";
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF069D648967F4508CDFE628FD0D3E2A /* Pods-SignalRClient-ObjC_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,39 +456,26 @@
 				6DE490AB83E4F4A502532165A0DBBD74 /* SRWebSocket.m */,
 				9150B404203918EA2C8C92ACE779095A /* Support Files */,
 			);
+			name = SocketRocket;
 			path = SocketRocket;
-			sourceTree = "<group>";
-		};
-		D66ADEA87ABE2D4B21E341D396992ED5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FADD78AAD9A9CD55FD8819D3E7681967 /* Info.plist */,
-				4CA92611BCAA8074FFD2F17035AEF074 /* SignalRClient-ObjC.modulemap */,
-				8D75548595F580F72E29BF4884D492B5 /* SignalRClient-ObjC.xcconfig */,
-				5F5A4D3C9C4C3F62CBCB5412CA674C20 /* SignalRClient-ObjC-dummy.m */,
-				576C07188B51E4C224D002C65E623FBE /* SignalRClient-ObjC-prefix.pch */,
-				D6C6814C17CD94BFD7132BFC945CE9D7 /* SignalRClient-ObjC-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SignalRClient-ObjC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2470C55E0BA45E72332731D90CBAB290 /* Headers */ = {
+		312AEF525E8F51F2290D1B71E238AE79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA8484A1F969FEC0009EF1D /* HubConnection.h in Headers */,
-				05272CF49EB77FEEB4A1F73741095DE3 /* HttpClient.h in Headers */,
-				3AA848531F96AB5B0009EF1D /* JSONHubProtocol.h in Headers */,
-				3AA848761F97BCF70009EF1D /* InvocationDescriptor.h in Headers */,
-				E486304F40B3ACC592CFDA2496D9853C /* HttpResponse.h in Headers */,
-				9DC3C88957912D053E83A09ED0D0B1F8 /* SignalRClient-ObjC-umbrella.h in Headers */,
-				3AA8484E1F96A41B0009EF1D /* HubProtocol.h in Headers */,
-				E8C9EB334002DD9772D6481E8BB04911 /* SocketConnection.h in Headers */,
-				E4DB2FCC359204B7DCAB3CBC9C106FE1 /* WebsocketsTransport.h in Headers */,
+				DA1F367062953ECC742FE8A795F2025A /* HttpClient.h in Headers */,
+				ACF86DC3F7DABB65729C46EE015A6054 /* HttpResponse.h in Headers */,
+				9BA51D6CB8F889EC2ADB3D83F191FA3A /* HubConnection.h in Headers */,
+				31DC8A567080C5100ED7CDEF4522F0D6 /* HubProtocol.h in Headers */,
+				FDB6EFAD55FC854C6411AE87C3B91D7B /* InvocationDescriptor.h in Headers */,
+				18CB915EB6C20F5210A8D5FE3CDE9760 /* JSONHubProtocol.h in Headers */,
+				C0B13D28D0C47FD1D8BC4C00A5221E10 /* SignalRClient-ObjC-umbrella.h in Headers */,
+				632CE9D1CFDCD87391781B851099AD81 /* SocketConnection.h in Headers */,
+				7F836EA4D24211BFCA036BFD18B6D29C /* WebsocketsTransport.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,9 +598,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E3E1EE8FCD2505D2329BFD5A6C1F640 /* Build configuration list for PBXNativeTarget "SignalRClient-ObjC" */;
 			buildPhases = (
-				726CFC770C2E06169FF8B7A6FC12B728 /* Sources */,
+				F42B85FAF6C14F9124D2F69BE8C7E524 /* Sources */,
 				5892F1881C12BCE18C1CBC2E86648F62 /* Frameworks */,
-				2470C55E0BA45E72332731D90CBAB290 /* Headers */,
+				312AEF525E8F51F2290D1B71E238AE79 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -617,7 +619,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -650,22 +652,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		726CFC770C2E06169FF8B7A6FC12B728 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DD7F9BF4D33F86C2C56CE156A47BCE2 /* HttpClient.m in Sources */,
-				64F5EFF499361FA9B1680B4F1273A2D8 /* HttpResponse.m in Sources */,
-				A395A3CD605D9C392E3C6282328391C5 /* SignalRClient-ObjC-dummy.m in Sources */,
-				3AA8484B1F969FEC0009EF1D /* HubConnection.m in Sources */,
-				1CCD243F842605BEBC7DB4C5A87DB128 /* SocketConnection.m in Sources */,
-				3AA8484F1F96A41B0009EF1D /* HubProtocol.m in Sources */,
-				2D8410637BCB9F2EED690B17799582FD /* WebsocketsTransport.m in Sources */,
-				3AA848771F97BCF70009EF1D /* InvocationDescriptor.m in Sources */,
-				3AA848541F96AB5B0009EF1D /* JSONHubProtocol.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A30A80C6EC8884D41132165F03292230 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -695,6 +681,22 @@
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42B85FAF6C14F9124D2F69BE8C7E524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1426BA654F21586188E7511F15C89E /* HttpClient.m in Sources */,
+				D33CADA55790401940C0FBA736966F5C /* HttpResponse.m in Sources */,
+				342439709B1F48E032F721C1109860FB /* HubConnection.m in Sources */,
+				CAF74D965D44EBD155414C85C1418C91 /* HubProtocol.m in Sources */,
+				15D274F70F69C4E918CD64CFAB389CDF /* InvocationDescriptor.m in Sources */,
+				861D2C3A89F3B8B08094BE31DF512AA1 /* JSONHubProtocol.m in Sources */,
+				D2E2FEDF0FA9F70940162667D7268B25 /* SignalRClient-ObjC-dummy.m in Sources */,
+				3FEA40E4640BB8C94FB6927589ABD006 /* SocketConnection.m in Sources */,
+				AA2CA6871AABF8818F1943441EB0DFD1 /* WebsocketsTransport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,7 +792,7 @@
 		};
 		408AB2147C6CCEE7B87AF93250130369 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D75548595F580F72E29BF4884D492B5 /* SignalRClient-ObjC.xcconfig */;
+			baseConfigurationReference = ADC362F0918B21658D151C1A3D520C21 /* SignalRClient-ObjC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -820,7 +822,7 @@
 		};
 		67C601A5D37A0548D14E7D6885D8F613 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D75548595F580F72E29BF4884D492B5 /* SignalRClient-ObjC.xcconfig */;
+			baseConfigurationReference = ADC362F0918B21658D151C1A3D520C21 /* SignalRClient-ObjC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -927,7 +929,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -969,7 +970,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AC76BF12A07656DBFC93F7FE6A19273 /* Pods-SignalRClient-ObjC_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1004,7 +1004,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2F69B3F4F6893AF3F76C720627B0E72 /* Pods-SignalRClient-ObjC_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
