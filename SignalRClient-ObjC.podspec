@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'asaturg@gmail.com' => 'asatur@realizeit.co' }
-  s.source           = { :git => 'https://github.com/asaturg/SignalRClient-ObjC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/asaturg/SignalRClient-ObjC.git',:branch => "master", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
