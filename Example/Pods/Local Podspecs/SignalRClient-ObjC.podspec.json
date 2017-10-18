@@ -13,6 +13,7 @@
   },
   "source": {
     "git": "https://github.com/asaturg/SignalRClient-ObjC.git",
+    "branch": "master",
     "tag": "0.1.0"
   },
   "platforms": {
