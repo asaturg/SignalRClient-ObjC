@@ -1,0 +1,6 @@
+framework module SignalRClient_ObjC {
+  umbrella header "SignalRClient-ObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

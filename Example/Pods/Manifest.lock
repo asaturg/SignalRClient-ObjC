@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SignalRClient-ObjC (0.1.0):
+    - SocketRocket
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SignalRClient-ObjC (from `../`)
+
+EXTERNAL SOURCES:
+  SignalRClient-ObjC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SignalRClient-ObjC: 0500836687a85027f3e22e62cc0657fe470923ef
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 563a3931d2693f938ed50202725c14daf727e9ee
+
+COCOAPODS: 1.3.1
