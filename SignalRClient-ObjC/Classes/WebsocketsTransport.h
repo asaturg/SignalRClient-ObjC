@@ -10,7 +10,7 @@
 @protocol TransportDelegate <NSObject>
 
 - (void)transportDidOpen;
-- (void)transportDidReceiveData:(NSData *)data;
+- (void)transportDidReceiveData:(NSString *)data;
 - (void)transportDidClose:(NSError *)error;
 
 @end

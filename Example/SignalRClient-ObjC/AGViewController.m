@@ -22,11 +22,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    hubConnection = [[HubConnection alloc] initWithUrl:[NSURL URLWithString:@"http://localhost:51996/cablr"]];
+    hubConnection = [[HubConnection alloc] initWithUrl:[NSURL URLWithString:@"http://localhost:5000/chat"]];
     hubConnection.delegate = self;
     [hubConnection start:[[WebsocketsTransport alloc] init]];
     
-    [hubConnection on:@"NewMessage" callback:^(id arguments) {
+    [hubConnection on:@"Broadcast" callback:^(id arguments) {
         NSLog(@"arguments %@" , arguments);
     }];
 

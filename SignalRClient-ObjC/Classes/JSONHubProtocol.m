@@ -31,13 +31,12 @@
 }
 
 
-- (NSArray*)parseMessages:(NSData *)data {
+- (NSArray*)parseMessages:(NSString *)data {
     NSMutableArray *hubMessages = [[NSMutableArray alloc] init];
     
-    NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-    NSRange range = [dataString rangeOfString:recordSeparator options:NSBackwardsSearch];
+    NSRange range = [data rangeOfString:recordSeparator options:NSBackwardsSearch];
     
-    NSArray *messages = [[dataString substringToIndex:range.location] componentsSeparatedByString:recordSeparator];
+    NSArray *messages = [[data substringToIndex:range.location] componentsSeparatedByString:recordSeparator];
     
     for (NSString *message in messages) {
         [hubMessages addObject:[self createHubMessage:message]];
@@ -127,13 +126,5 @@
     return [[CompletionMessage alloc] initWithInvocationId:invocationId result:nil];
 }
 
-/*
- 
- 
- public func writeMessage(message: HubMessage) throws -> Data {
- 
- }
- 
- */
 
 @end

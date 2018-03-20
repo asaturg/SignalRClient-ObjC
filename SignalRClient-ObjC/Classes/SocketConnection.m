@@ -51,7 +51,9 @@ typedef NS_ENUM(NSUInteger, ConnectionState) {
     
     dispatch_group_enter(startDispatchGroup);
     
-    [HttpClient optionsWithUrl:self.url completionHandler:^(HttpResponse *response, NSError *error) {
+    NSURL *negotiateUrl = [self.url URLByAppendingPathComponent:@"negotiate"];
+    
+    [HttpClient postWithUrl:negotiateUrl completionHandler:^(HttpResponse *response, NSError *error) {
         if (error) {
             NSLog(@"error %@", error.debugDescription);
             dispatch_group_leave(startDispatchGroup);
@@ -177,7 +179,13 @@ typedef NS_ENUM(NSUInteger, ConnectionState) {
     });
 }
 
-- (void)transportDidReceiveData:(NSData *)data {
+//- (void)transportDidReceiveData:(NSData *)data {
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        [self.delegate connectionDidReceiveData:data connection:self];
+//    });
+//}
+
+- (void)transportDidReceiveData:(NSString *)data {
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.delegate connectionDidReceiveData:data connection:self];
     });

@@ -31,7 +31,7 @@ typedef NS_ENUM(NSUInteger, MessageType) {
 @property (nonatomic) NSString *name;
 @property (nonatomic) ProtocolType type;
 
-- (NSArray*)parseMessages:(NSData*)data;
+- (NSArray*)parseMessages:(NSString*)data;
 - (NSData *)writeMessage:(id<HubMessage>)message;
 
 @end

@@ -247,9 +247,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AG;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "asaturg@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6PHPGAAG6M;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -560,6 +563,7 @@
 			baseConfigurationReference = E273C12C434CA0AD3040B54D /* Pods-SignalRClient-ObjC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PHPGAAG6M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SignalRClient-ObjC/SignalRClient-ObjC-Prefix.pch";
 				INFOPLIST_FILE = "SignalRClient-ObjC/SignalRClient-ObjC-Info.plist";
@@ -575,6 +579,7 @@
 			baseConfigurationReference = D79A9020B2B69C85052D0435 /* Pods-SignalRClient-ObjC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PHPGAAG6M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SignalRClient-ObjC/SignalRClient-ObjC-Prefix.pch";
 				INFOPLIST_FILE = "SignalRClient-ObjC/SignalRClient-ObjC-Info.plist";

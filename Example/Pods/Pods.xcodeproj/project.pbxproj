@@ -106,13 +106,13 @@
 		1E6A08043997ADB2BACB0909E0CC0E1B /* JSONHubProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHubProtocol.m; path = "SignalRClient-ObjC/Classes/JSONHubProtocol.m"; sourceTree = "<group>"; };
 		24983183B7156C633A9A26241BE69306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25067BDACBAD52B1CA8559344ED942C4 /* SignalRClient-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalRClient-ObjC-prefix.pch"; sourceTree = "<group>"; };
-		26DE8C62E765B0DF102278ADA01B908B /* Pods_SignalRClient_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignalRClient_ObjC_Example.framework; path = "Pods-SignalRClient-ObjC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DE8C62E765B0DF102278ADA01B908B /* Pods_SignalRClient_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalRClient_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E029FB023FF0A386C2F44A7FCD42A3 /* HubConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HubConnection.h; path = "SignalRClient-ObjC/Classes/HubConnection.h"; sourceTree = "<group>"; };
 		2A471FBED0A6E0AF3D7D721F446264EB /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		2BEB33E2AE6C750006E690D476E3B4A2 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2BF61472E77B47FB02D15066B4AF7377 /* Pods-SignalRClient-ObjC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRClient-ObjC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2F819E1C6609486A52B6E8C5D9C694BA /* HttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HttpClient.m; path = "SignalRClient-ObjC/Classes/HttpClient.m"; sourceTree = "<group>"; };
-		31E76DB1D15F609D232BD4A97A6556EF /* SignalRClient-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SignalRClient-ObjC.modulemap"; sourceTree = "<group>"; };
+		31E76DB1D15F609D232BD4A97A6556EF /* SignalRClient-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "SignalRClient-ObjC.modulemap"; sourceTree = "<group>"; };
 		36583B62CDF14E73755D76C13E922E5E /* WebsocketsTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebsocketsTransport.h; path = "SignalRClient-ObjC/Classes/WebsocketsTransport.h"; sourceTree = "<group>"; };
 		3BDC4538E8FD98688CE641E9639DEB7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3F6E8CFA0830F360B559F3AC1CB53D78 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,7 +125,7 @@
 		4B33CEF4B11B17866EB59466C1FCB5E0 /* InvocationDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InvocationDescriptor.h; path = "SignalRClient-ObjC/Classes/InvocationDescriptor.h"; sourceTree = "<group>"; };
 		4E06893634BEEED3B2B624456859BEB3 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		4F0889F94D472EE2EF754693385C9E7B /* SocketConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SocketConnection.m; path = "SignalRClient-ObjC/Classes/SocketConnection.m"; sourceTree = "<group>"; };
-		5D29D1E66A6D8412DFF2EDCBFE5DE7CB /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		5D29D1E66A6D8412DFF2EDCBFE5DE7CB /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocketRocket.modulemap; sourceTree = "<group>"; };
 		5D9A84B9FF327EB5AFAD83063571F902 /* Pods-SignalRClient-ObjC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRClient-ObjC_Example-resources.sh"; sourceTree = "<group>"; };
 		5E0B0ADE06BDEF16140129FC067A2E8D /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		5F0F251B68741768B2FC39190945B5B5 /* WebsocketsTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebsocketsTransport.m; path = "SignalRClient-ObjC/Classes/WebsocketsTransport.m"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		6DE490AB83E4F4A502532165A0DBBD74 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
 		6EB9F4B39162985FF3780ACAF19ED988 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		6FE11593433ACDDF96661CEE973C8542 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		707719E081A405399B3406AE5EA75947 /* Pods-SignalRClient-ObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SignalRClient-ObjC_Tests.modulemap"; sourceTree = "<group>"; };
+		707719E081A405399B3406AE5EA75947 /* Pods-SignalRClient-ObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SignalRClient-ObjC_Tests.modulemap"; sourceTree = "<group>"; };
 		7604F5EAC61267C198DD15B7A95AFF2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		777EB55B85C5A977DB2F425212738950 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7AB67B9CD8108829D9EC74BC674836D0 /* Pods-SignalRClient-ObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignalRClient-ObjC_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -143,18 +143,18 @@
 		85454E66CA662F8ED67CC2ED134790A9 /* HubConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HubConnection.m; path = "SignalRClient-ObjC/Classes/HubConnection.m"; sourceTree = "<group>"; };
 		8FD5E01C9B4A0072686873A4F41C2C4F /* Pods-SignalRClient-ObjC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignalRClient-ObjC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90F321BB228AC5D502C4FC0D483A2270 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAA9D4F103C9836312B3D193370F006 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		A0013221EA9478E19F99EEC02FFBC7C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47C732B4007408D1A848A871B24C5F6 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA50E5C7F492D2972C1933E4B50170CB /* Pods_SignalRClient_ObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignalRClient_ObjC_Tests.framework; path = "Pods-SignalRClient-ObjC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47C732B4007408D1A848A871B24C5F6 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA50E5C7F492D2972C1933E4B50170CB /* Pods_SignalRClient_ObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalRClient_ObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD031A9B5C775D517AB8AF7F031162F /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		ADC362F0918B21658D151C1A3D520C21 /* SignalRClient-ObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SignalRClient-ObjC.xcconfig"; sourceTree = "<group>"; };
 		ADC8E761CA4AE9DC2C03E9FB32FAD3B3 /* Pods-SignalRClient-ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRClient-ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B0B7C00FBCA3B552BF63FDC2933714B5 /* InvocationDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InvocationDescriptor.m; path = "SignalRClient-ObjC/Classes/InvocationDescriptor.m"; sourceTree = "<group>"; };
 		B2D6055F7AD3FEA4E78FAB7DB4EDA44E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B52B3E3BAC161869285EAD8FA36AE00B /* Pods-SignalRClient-ObjC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignalRClient-ObjC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B7CB58461FEBB8EF0A45F55CD54D3BC0 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CB58461FEBB8EF0A45F55CD54D3BC0 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8040EAFB0C7656B3EB9B7E4BF2CDBA4 /* HttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = "SignalRClient-ObjC/Classes/HttpResponse.h"; sourceTree = "<group>"; };
 		B84C9AD18E0D82D365CDBB3397D2A4EE /* Pods-SignalRClient-ObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignalRClient-ObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7764A21C5D0CE544E05DF556E62A25E /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
@@ -170,16 +170,16 @@
 		E5D28A14FE5E5E80862A165ACE90F180 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6127A1C7073B24BD268E9A193413EA3 /* HubProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HubProtocol.m; path = "SignalRClient-ObjC/Classes/HubProtocol.m"; sourceTree = "<group>"; };
 		E89C07CF1DB09DDA0392E96E2A450B87 /* SignalRClient-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalRClient-ObjC-umbrella.h"; sourceTree = "<group>"; };
-		E9AC4031B6A14A47FA0C3649D7B6F915 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		E9AC4031B6A14A47FA0C3649D7B6F915 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		EB1F2A601509933C6EF71EA59CD40586 /* Pods-SignalRClient-ObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRClient-ObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EB65DB53E56B7FBA4CA1758DE21CF8A1 /* SignalRClient-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SignalRClient-ObjC-dummy.m"; sourceTree = "<group>"; };
 		ECC037D3C72C29DA8F3B394104ADB4B3 /* HubProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HubProtocol.h; path = "SignalRClient-ObjC/Classes/HubProtocol.h"; sourceTree = "<group>"; };
 		ED8A685D612FF7299523998D3EE64113 /* Pods-SignalRClient-ObjC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRClient-ObjC_Tests-resources.sh"; sourceTree = "<group>"; };
 		EEC31BEC1DA52317540858ECBC55272F /* HttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HttpClient.h; path = "SignalRClient-ObjC/Classes/HttpClient.h"; sourceTree = "<group>"; };
-		EFE127D96CAFBD13698839C23202C3D1 /* Pods-SignalRClient-ObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SignalRClient-ObjC_Example.modulemap"; sourceTree = "<group>"; };
+		EFE127D96CAFBD13698839C23202C3D1 /* Pods-SignalRClient-ObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SignalRClient-ObjC_Example.modulemap"; sourceTree = "<group>"; };
 		F102D0788FC2530D36A28A205E120B98 /* HttpResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = "SignalRClient-ObjC/Classes/HttpResponse.m"; sourceTree = "<group>"; };
 		F48EB1F5C450B6692CF857F96DE1E293 /* Pods-SignalRClient-ObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SignalRClient-ObjC_Example-dummy.m"; sourceTree = "<group>"; };
-		FAE405ECA430286AD6B5A513EF268696 /* SignalRClient_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SignalRClient_ObjC.framework; path = "SignalRClient-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE405ECA430286AD6B5A513EF268696 /* SignalRClient_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalRClient_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD95F252923F67AF3BE4708062FB091A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -358,7 +358,6 @@
 				3E4E4A26BB4CC45E50C40F4C9AC4CAF4 /* Support Files */,
 				A48C92099C55E6C41163390D3F784F71 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -456,7 +455,6 @@
 				6DE490AB83E4F4A502532165A0DBBD74 /* SRWebSocket.m */,
 				9150B404203918EA2C8C92ACE779095A /* Support Files */,
 			);
-			name = SocketRocket;
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
@@ -619,7 +617,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0910;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -786,6 +784,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -929,6 +928,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -970,6 +971,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AC76BF12A07656DBFC93F7FE6A19273 /* Pods-SignalRClient-ObjC_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1004,6 +1006,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2F69B3F4F6893AF3F76C720627B0E72 /* Pods-SignalRClient-ObjC_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

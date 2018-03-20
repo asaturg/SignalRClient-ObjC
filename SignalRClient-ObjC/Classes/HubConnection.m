@@ -107,7 +107,7 @@
 
 - (void)hubConnectionDidReceiveData:(NSString *)data {
     
-    NSArray* hubMessages = [self.hubProtocol parseMessages:[data dataUsingEncoding:NSUTF8StringEncoding]];
+    NSArray* hubMessages = [self.hubProtocol parseMessages:data];
     
     for (id<HubMessage> hubMessage in hubMessages) {
         switch (hubMessage.messageType) {
@@ -126,14 +126,7 @@
                 break;
             default:
                 break;
-                
-//                let callback = this.callbacks.get(message.invocationId);
-//                if (callback != null) {
-//                    callback(message);
-//                    if (message.type == 3 /* Completion */) {
-//                        this.callbacks.delete(message.invocationId);
-//                    }
-//                }
+
         }
     }
     
